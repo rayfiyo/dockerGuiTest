@@ -1,4 +1,4 @@
-[English type is here](https://github.com/rayfiyo/DockerGuiTest/tree/main#what-is-this-repository)
+[English type is here](https://github.com/rayfiyo/DockerGuiTest#what-is-this-repository)
 # このレポジトリは何？
 Dockerでguiを描画する試験をした結果、成功したので公開。
 
