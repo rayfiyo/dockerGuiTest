@@ -1,0 +1,16 @@
+FROM debian:latest
+VOLUME /mnt/wslg
+VOLUME /tmp/.X11-unix
+ARG DISPLAY
+ARG PULSE_SERVER
+ARG WAYLAND_DISPLAY
+ARG XDG_RUNTIME_DIR
+ENV DISPLAY $DISPLAY
+ENV PULSE_SERVER $PULSE_SERVER
+ENV WAYLAND_DISPLAY $WAYLAND_DISPLAY
+ENV XDG_RUNTIME_DIR $XDG_RUNTIME_DIR
+
+# The following is for testing the operation
+RUN	apt update -y &&\
+	apt-get install x11-apps -y ;
+CMD xeyes
