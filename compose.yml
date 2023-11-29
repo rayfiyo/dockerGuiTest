@@ -9,3 +9,4 @@ services:
       - PULSE_SERVER=$PULSE_SERVER
       - WAYLAND_DISPLAY=$WAYLAND_DISPLAY
       - XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR
+    tty: true

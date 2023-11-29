@@ -13,4 +13,3 @@ ENV XDG_RUNTIME_DIR $XDG_RUNTIME_DIR
 # The following is for testing the operation
 RUN	apt update -y &&\
 	apt-get install x11-apps -y ;
-CMD xeyes
