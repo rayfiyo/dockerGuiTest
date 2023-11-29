@@ -1,6 +1,7 @@
 [English type is here](https://github.com/rayfiyo/DockerGuiTest#what-is-this-repository)
 # このレポジトリは何？
-Dockerでguiを描画する試験をした結果、成功したので公開。
+Docker（Docker Desktop for Windows）でguiを描画する試験をした結果、成功したので公開。
+WSLを用います。
 
 # 利用方法は？
 方法は2通りあります。
@@ -36,7 +37,8 @@ compose.yml は docker-compose.yml と同じ役割です。
 ---
 
 # What is this repository?
-I tested drawing gui with Docker and it was successful, so I published the file.
+I tested drawing gui with Docker(Docker Desktop for Windows) and it was successful, so I published the file.
+Use WSL.
 
 # I'd like to try it too.
 There are two methods.
