@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:12.5-slim
 VOLUME /mnt/wslg
 VOLUME /tmp/.X11-unix
 ARG DISPLAY
